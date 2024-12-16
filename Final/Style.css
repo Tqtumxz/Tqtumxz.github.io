@@ -1,0 +1,300 @@
+
+
+h1 {
+    text-align: center;
+}
+
+.home {
+    margin: 0px;
+    background-image: url("images/2.png");
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+.navbar{
+    position: relative;
+}
+
+.navbar_About {
+    position: fixed;
+    top: 0;
+    left: 0;
+    display: flex;
+    background-color: rgb(0, 0, 0);
+    justify-content: space-between;
+    gap: 20px;
+    padding: 46px 30px;
+    width: 100%;
+    z-index: 1000;
+}
+
+.navbar ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    background-color: transparent;
+}
+
+.navbar a {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    padding: 25px;
+    display: block;
+    text-align: center;
+}
+
+.navbar a:hover {
+    color: rgb(201, 201, 201);
+}
+
+.navbar li {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 20px;
+}
+
+.navbar .logo {
+    position: absolute;
+    padding: 20px;
+    left: 50%;
+    top: 1;
+}
+.navbar_About .logo {
+    position: absolute;
+    padding: 20px;
+    left: 50%;
+    top: 1;
+}
+
+.navbar_About ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    justify-content: center;
+    gap: 20px;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    background-color: transparent;
+}
+
+.navbar_About a {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    padding: 25px;
+    display: block;
+    text-align: center;
+}
+
+.navbar_About a:hover {
+    color: rgb(80, 80, 80);
+}
+
+.navbar_About li {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 20px;
+}
+
+.navbar_Clothing ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    background-color: transparent;
+}
+
+.navbar_Clothing a {
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    padding: 25px;
+    display: block;
+    text-align: center;
+}
+
+.navbar_Clothing a:hover {
+    color: rgb(68, 68, 68);
+}
+
+.navbar_Clothing li {
+    font-family: "Kode Mono";
+    font-size: 40px;
+    margin-left: 20px;
+}
+
+.navbar_Clothing .logo {
+    display: flex;
+    top: 0;
+    align-items: center;
+    padding: 0;
+}
+
+.navbar_icons {
+    display: flex;
+    position: absolute;
+    right: 10px;
+    gap: 35px;
+    padding: 20px;
+    margin: 20px;
+    margin-left: auto;
+    color: #ffffff;
+}
+.navbar_icons_About{
+    display: flex;
+    position: absolute;
+    right: 60px;
+    gap: 40px;
+    padding: 20px;
+    margin: 20px;
+    margin-left: auto;
+    color: #ffffff;
+}
+
+.Hero {
+    background: url('images/backgoundImage.jpg') center/cover no-repeat;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding-top: 60px;
+}
+
+.hc {
+    background: rgba(255, 255, 255, 0.5);
+    padding: 20px;
+    border-radius: 8px;
+}
+
+.filter {
+    background-color: rgb(141, 140, 140);
+    padding: 15px;
+    border-radius: 8px;
+    height: 50vh;
+    position: sticky;
+    top: 0;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: 280px 3fr;
+    gap: 20px;
+    margin: 35px;
+    padding: 0;
+}
+
+.Content {
+    background-color: rgb(212, 211, 209);
+    padding: 0%;
+    margin: auto;
+    border-radius: 8px;
+}
+
+.productgrid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    background-color: rgb(224, 224, 224);
+    gap: 20px;
+    padding: 20px;
+    border: 1px solid #cacaca;
+    border-radius: 8px;
+    box-shadow: -10px 8px 10px rgba(0, 0, 0, 0.2);
+}
+
+.card:hover {
+    opacity: 95%;
+    width: 95%;
+    height: 95%;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #cacaca;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 10px 10px 7px rgba(0, 0, 0, 0.2);
+    position: relative;
+    float: left;
+}
+
+.filtertxt {
+    padding: 10px;
+    margin-left: 0;
+    text-align: left;
+    text-decoration: none;
+    font-family: "Kode Mono";
+    list-style: none;
+    font-size: 28px;
+}
+
+
+h4 {
+    font-family: "Kode Mono";
+    text-align: center;
+    font-size: 26px;
+    font-weight: bold;
+}
+
+
+.pinfo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 10px;
+    margin-bottom: 0;
+}
+
+.price {
+    font-family: "Kode Mono";
+    text-align: left;
+}
+
+.hc{
+    padding: 42px;
+    margin: 20px;
+}
+
+.abouttxt {
+    color: #000000;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 60px;
+}
+p{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 18px;
+    font-weight: 50;
+}
+button {
+    background-color: rgb(255, 85, 127);
+    color: #ffffff;
+    font-size: 22;
+    font-family:"Franklin Gothic Medium";
+    border:none;
+    position: relative;
+    cursor: pointer;
+    padding: 10px;
+    border-radius:8px;
+}
+.socials {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    list-style-type: none;
+    text-decoration: none;
+    color: #000000;
+    margin: 10px;
+    padding: 0px;
+    gap: 20px;
+}
+.socials i{
+    font-size: 22px;
+}
